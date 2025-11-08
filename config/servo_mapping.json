@@ -1,0 +1,342 @@
+{
+  "servo_mapping": {
+    "head": {
+      "pan": {
+        "controller": "A",
+        "channel": 1,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "tilt": {
+        "controller": "A",
+        "channel": 2,
+        "center": 1500,
+        "min": 1000,
+        "max": 2000
+      }
+    },
+    "right_arm": {
+      "shoulder_pitch": {
+        "controller": "A",
+        "channel": 3,
+        "center": 1500,
+        "min": 800,
+        "max": 2200
+      },
+      "shoulder_roll": {
+        "controller": "A",
+        "channel": 4,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "elbow": {
+        "controller": "A",
+        "channel": 5,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "wrist_pitch": {
+        "controller": "A",
+        "channel": 6,
+        "center": 1500,
+        "min": 800,
+        "max": 2200
+      },
+      "wrist_roll": {
+        "controller": "A",
+        "channel": 7,
+        "center": 1500,
+        "min": 800,
+        "max": 2200
+      },
+      "hand": {
+        "controller": "A",
+        "channel": 8,
+        "center": 1500,
+        "min": 1000,
+        "max": 2000
+      }
+    },
+    "left_arm": {
+      "shoulder_pitch": {
+        "controller": "A",
+        "channel": 9,
+        "center": 1500,
+        "min": 800,
+        "max": 2200
+      },
+      "shoulder_roll": {
+        "controller": "A",
+        "channel": 10,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "elbow": {
+        "controller": "A",
+        "channel": 11,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "wrist_pitch": {
+        "controller": "A",
+        "channel": 12,
+        "center": 1500,
+        "min": 800,
+        "max": 2200
+      },
+      "wrist_roll": {
+        "controller": "A",
+        "channel": 13,
+        "center": 1500,
+        "min": 800,
+        "max": 2200
+      },
+      "hand": {
+        "controller": "A",
+        "channel": 14,
+        "center": 1500,
+        "min": 1000,
+        "max": 2000
+      }
+    },
+    "torso": {
+      "waist_rotation": {
+        "controller": "A",
+        "channel": 15,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      },
+      "waist_tilt": {
+        "controller": "A",
+        "channel": 16,
+        "center": 1500,
+        "min": 1200,
+        "max": 1800
+      },
+      "chest_rotation": {
+        "controller": "A",
+        "channel": 17,
+        "center": 1500,
+        "min": 1000,
+        "max": 2000
+      },
+      "chest_tilt": {
+        "controller": "A",
+        "channel": 18,
+        "center": 1500,
+        "min": 1200,
+        "max": 1800
+      }
+    },
+    "extra_upper": {
+      "servo_19": {
+        "controller": "A",
+        "channel": 19,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_20": {
+        "controller": "A",
+        "channel": 20,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_21": {
+        "controller": "A",
+        "channel": 21,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_22": {
+        "controller": "A",
+        "channel": 22,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_23": {
+        "controller": "A",
+        "channel": 23,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_24": {
+        "controller": "A",
+        "channel": 24,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      }
+    },
+    "right_leg": {
+      "hip_yaw": {
+        "controller": "B",
+        "channel": 1,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      },
+      "hip_roll": {
+        "controller": "B",
+        "channel": 2,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      },
+      "hip_pitch": {
+        "controller": "B",
+        "channel": 3,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "knee": {
+        "controller": "B",
+        "channel": 4,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "ankle_pitch": {
+        "controller": "B",
+        "channel": 5,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      },
+      "ankle_roll": {
+        "controller": "B",
+        "channel": 6,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      }
+    },
+    "left_leg": {
+      "hip_yaw": {
+        "controller": "B",
+        "channel": 7,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      },
+      "hip_roll": {
+        "controller": "B",
+        "channel": 8,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      },
+      "hip_pitch": {
+        "controller": "B",
+        "channel": 9,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "knee": {
+        "controller": "B",
+        "channel": 10,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "ankle_pitch": {
+        "controller": "B",
+        "channel": 11,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      },
+      "ankle_roll": {
+        "controller": "B",
+        "channel": 12,
+        "center": 1500,
+        "min": 900,
+        "max": 2100
+      }
+    },
+    "extra_lower": {
+      "servo_13": {
+        "controller": "B",
+        "channel": 13,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_14": {
+        "controller": "B",
+        "channel": 14,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_15": {
+        "controller": "B",
+        "channel": 15,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_16": {
+        "controller": "B",
+        "channel": 16,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_17": {
+        "controller": "B",
+        "channel": 17,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_18": {
+        "controller": "B",
+        "channel": 18,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_19": {
+        "controller": "B",
+        "channel": 19,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_20": {
+        "controller": "B",
+        "channel": 20,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      },
+      "servo_21": {
+        "controller": "B",
+        "channel": 21,
+        "center": 1500,
+        "min": 700,
+        "max": 2300
+      }
+    }
+  },
+  "notes": {
+    "position_range": "500-2500 microseconds",
+    "center_position": "1500 microseconds",
+    "controller_A": "24 servos - Head, Arms, Torso",
+    "controller_B": "21 servos - Legs, Feet",
+    "custom_mapping": "Sesuaikan mapping ini dengan robot Anda yang sebenarnya"
+  }
+}

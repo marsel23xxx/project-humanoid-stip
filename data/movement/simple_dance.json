@@ -1,0 +1,68 @@
+{
+  "movement": {
+    "name": "Simple Dance",
+    "description": "Gerakan dance sederhana untuk robot",
+    "duration": 15,
+    "steps": [
+      {
+        "step": 1,
+        "name": "Ready stance",
+        "time": 1000,
+        "servos": [
+          { "part": "head.pan", "position": 1500 },
+          { "part": "right_arm.shoulder_pitch", "position": 1200 },
+          { "part": "left_arm.shoulder_pitch", "position": 1200 }
+        ]
+      },
+      {
+        "step": 2,
+        "name": "Arms up",
+        "time": 800,
+        "servos": [
+          { "part": "right_arm.shoulder_pitch", "position": 700 },
+          { "part": "right_arm.shoulder_roll", "position": 2000 },
+          { "part": "left_arm.shoulder_pitch", "position": 700 },
+          { "part": "left_arm.shoulder_roll", "position": 1000 }
+        ]
+      },
+      {
+        "step": 3,
+        "name": "Sway right",
+        "time": 600,
+        "servos": [
+          { "part": "torso.waist_rotation", "position": 1700 },
+          { "part": "head.pan", "position": 1700 }
+        ]
+      },
+      {
+        "step": 4,
+        "name": "Sway left",
+        "time": 600,
+        "servos": [
+          { "part": "torso.waist_rotation", "position": 1300 },
+          { "part": "head.pan", "position": 1300 }
+        ]
+      },
+      {
+        "step": 5,
+        "name": "Sway center",
+        "time": 600,
+        "servos": [
+          { "part": "torso.waist_rotation", "position": 1500 },
+          { "part": "head.pan", "position": 1500 }
+        ]
+      },
+      {
+        "step": 6,
+        "name": "Arms down",
+        "time": 800,
+        "servos": [
+          { "part": "right_arm.shoulder_pitch", "position": 1500 },
+          { "part": "right_arm.shoulder_roll", "position": 1500 },
+          { "part": "left_arm.shoulder_pitch", "position": 1500 },
+          { "part": "left_arm.shoulder_roll", "position": 1500 }
+        ]
+      }
+    ]
+  }
+}

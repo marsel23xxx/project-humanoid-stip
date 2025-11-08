@@ -1,0 +1,21 @@
+{
+  "controller_A": {
+    "port": "COM3",
+    "baudrate": 115200,
+    "timeout": 2,
+    "max_servos": 24,
+    "description": "Upper body - Head, Arms, Torso"
+  },
+  "controller_B": {
+    "port": "COM4",
+    "baudrate": 115200,
+    "timeout": 2,
+    "max_servos": 21,
+    "description": "Lower body - Hips, Legs, Feet"
+  },
+  "settings": {
+    "reconnect_attempts": 3,
+    "reconnect_delay": 1,
+    "command_delay": 0.05
+  }
+}

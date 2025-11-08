@@ -1,0 +1,131 @@
+{
+  "poses": {
+    "home": {
+      "name": "Home Position",
+      "description": "Posisi netral/default robot",
+      "servos": [
+        { "part": "head.pan", "position": 1500, "time": 1000 },
+        { "part": "head.tilt", "position": 1500, "time": 1000 },
+        { "part": "right_arm.shoulder_pitch", "position": 1500, "time": 1000 },
+        { "part": "right_arm.shoulder_roll", "position": 1500, "time": 1000 },
+        { "part": "right_arm.elbow", "position": 1500, "time": 1000 },
+        { "part": "left_arm.shoulder_pitch", "position": 1500, "time": 1000 },
+        { "part": "left_arm.shoulder_roll", "position": 1500, "time": 1000 },
+        { "part": "left_arm.elbow", "position": 1500, "time": 1000 },
+        { "part": "torso.waist_rotation", "position": 1500, "time": 1000 },
+        { "part": "right_leg.hip_pitch", "position": 1500, "time": 1000 },
+        { "part": "right_leg.knee", "position": 1500, "time": 1000 },
+        { "part": "left_leg.hip_pitch", "position": 1500, "time": 1000 },
+        { "part": "left_leg.knee", "position": 1500, "time": 1000 }
+      ]
+    },
+    "greeting": {
+      "name": "Greeting Pose",
+      "description": "Mengangkat tangan kanan untuk menyapa",
+      "servos": [
+        { "part": "head.pan", "position": 1500, "time": 800 },
+        { "part": "head.tilt", "position": 1400, "time": 800 },
+        { "part": "right_arm.shoulder_pitch", "position": 800, "time": 1000 },
+        { "part": "right_arm.shoulder_roll", "position": 1800, "time": 1000 },
+        { "part": "right_arm.elbow", "position": 1200, "time": 1000 },
+        { "part": "right_arm.wrist_pitch", "position": 1500, "time": 800 },
+        { "part": "right_arm.hand", "position": 1800, "time": 500 }
+      ]
+    },
+    "wave_hand": {
+      "name": "Wave Hand",
+      "description": "Melambaikan tangan kanan",
+      "sequence": [
+        {
+          "servos": [
+            {
+              "part": "right_arm.shoulder_pitch",
+              "position": 800,
+              "time": 800
+            },
+            {
+              "part": "right_arm.shoulder_roll",
+              "position": 1800,
+              "time": 800
+            },
+            { "part": "right_arm.elbow", "position": 1200, "time": 800 }
+          ]
+        },
+        {
+          "servos": [
+            { "part": "right_arm.wrist_roll", "position": 1200, "time": 300 }
+          ],
+          "delay": 200
+        },
+        {
+          "servos": [
+            { "part": "right_arm.wrist_roll", "position": 1800, "time": 300 }
+          ],
+          "delay": 200
+        },
+        {
+          "servos": [
+            { "part": "right_arm.wrist_roll", "position": 1200, "time": 300 }
+          ],
+          "delay": 200
+        },
+        {
+          "servos": [
+            { "part": "right_arm.wrist_roll", "position": 1500, "time": 300 }
+          ],
+          "delay": 500
+        }
+      ]
+    },
+    "thinking": {
+      "name": "Thinking Pose",
+      "description": "Pose berpikir - tangan di dagu",
+      "servos": [
+        { "part": "head.tilt", "position": 1300, "time": 1000 },
+        { "part": "right_arm.shoulder_pitch", "position": 1100, "time": 1200 },
+        { "part": "right_arm.shoulder_roll", "position": 1300, "time": 1200 },
+        { "part": "right_arm.elbow", "position": 1000, "time": 1200 },
+        { "part": "right_arm.wrist_pitch", "position": 1200, "time": 1000 }
+      ]
+    },
+    "attention": {
+      "name": "Attention Stance",
+      "description": "Posisi siap/attention",
+      "servos": [
+        { "part": "head.pan", "position": 1500, "time": 800 },
+        { "part": "head.tilt", "position": 1600, "time": 800 },
+        { "part": "right_arm.shoulder_pitch", "position": 1700, "time": 1000 },
+        { "part": "right_arm.shoulder_roll", "position": 1300, "time": 1000 },
+        { "part": "right_arm.elbow", "position": 1500, "time": 1000 },
+        { "part": "left_arm.shoulder_pitch", "position": 1700, "time": 1000 },
+        { "part": "left_arm.shoulder_roll", "position": 1700, "time": 1000 },
+        { "part": "left_arm.elbow", "position": 1500, "time": 1000 },
+        { "part": "torso.waist_rotation", "position": 1500, "time": 1000 }
+      ]
+    },
+    "pointing_right": {
+      "name": "Point Right",
+      "description": "Menunjuk ke kanan dengan tangan kanan",
+      "servos": [
+        { "part": "head.pan", "position": 1800, "time": 800 },
+        { "part": "right_arm.shoulder_pitch", "position": 1500, "time": 1000 },
+        { "part": "right_arm.shoulder_roll", "position": 2000, "time": 1000 },
+        { "part": "right_arm.elbow", "position": 1900, "time": 1000 },
+        { "part": "right_arm.wrist_pitch", "position": 1500, "time": 800 },
+        { "part": "torso.waist_rotation", "position": 1700, "time": 1000 }
+      ]
+    },
+    "pointing_left": {
+      "name": "Point Left",
+      "description": "Menunjuk ke kiri dengan tangan kiri",
+      "servos": [
+        { "part": "head.pan", "position": 1200, "time": 800 },
+        { "part": "left_arm.shoulder_pitch", "position": 1500, "time": 1000 },
+        { "part": "left_arm.shoulder_roll", "position": 1000, "time": 1000 },
+        { "part": "left_arm.elbow", "position": 1100, "time": 1000 },
+        { "part": "left_arm.wrist_pitch", "position": 1500, "time": 800 },
+        { "part": "torso.waist_rotation", "position": 1300, "time": 1000 }
+      ]
+    }
+  }
+}
