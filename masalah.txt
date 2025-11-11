@@ -1,0 +1,129 @@
+============================================================
+       🤖 HUMANOID ROBOT CONTROL SYSTEM 🤖
+============================================================
+
+Pilih mode:
+  1. Interactive Mode  - Kontrol robot dengan input text
+  2. Demo Mode         - Showcase kemampuan robot
+  3. Test Mode         - Test fungsi dasar
+  4. Quit              - Keluar
+
+Pilihan (1-4): 3
+==================================================
+🤖 HUMANOID ROBOT CONTROL SYSTEM
+==================================================
+
+📡 Menghubungkan ke Arduino...
+✓ Konfigurasi berhasil dimuat
+
+=== Menghubungkan ke Arduino ===
+✗ Error koneksi controller_A: could not open port 'COM3': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+✗ controller_A gagal terhubung
+✓ controller_B terhubung
+
+🎤 Menginisialisasi Speech System...
+⚠ Ollama tidak terdeteksi!
+   Install dari: https://ollama.ai
+   Atau jalankan: ollama serve
+
+🦾 Menginisialisasi Movement Library...
+
+✓ Sistem siap!
+
+
+🏠 Moving to home position...
+
+▶ Executing pose: Home Position
+   Posisi netral/default robot
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+✓ Pose 'home' selesai
+
+
+==================================================
+🔧 MODE TEST
+==================================================
+
+[1/4] Testing: Home Position
+
+▶ Executing pose: Home Position
+   Posisi netral/default robot
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+✓ Pose 'home' selesai
+
+✓ Home Position OK
+
+[2/4] Testing: Head Movement
+▶ Looking left...
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✓ Look complete
+✓ Head Movement OK
+
+[3/4] Testing: Wave Hand
+▶ Waving right hand 1 times...
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✓ Wave complete
+✓ Wave Hand OK
+
+[4/4] Testing: Simple Speech
+💬 Speaking: Test speech
+✓ Simple Speech OK
+
+✓ Testing complete!
+
+🔄 Cleaning up...
+
+▶ Executing pose: Home Position
+   Posisi netral/default robot
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+✗ Controller A tidak terhubung
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+⚠ Timeout menunggu response dari B
+✓ Pose 'home' selesai
+
+✓ controller_B ditutup
+✓ Cleanup complete
+
+============================================================
+       Program selesai. Terima kasih!
+============================================================

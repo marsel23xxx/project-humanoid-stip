@@ -8,7 +8,7 @@ import os
 from typing import Dict, Any, Optional, List
 
 class ServoConfig:
-    def __init__(self, config_dir: str = "../config"):
+    def __init__(self, config_dir: str = "./config"):
         self.config_dir = config_dir
         self.servo_mapping: Dict[str, Any] = {}
         self.poses: Dict[str, Any] = {}
