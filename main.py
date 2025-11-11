@@ -6,13 +6,14 @@ Integrasi: Serial Control + Ollama TTS + Movements
 
 import time
 import sys
-from serial_controller import HumanoidController
-from tts_ollama import RobotSpeaker
-from movements import RobotMovements
+from python.serial_controller import HumanoidController
+from python.tts_ollama import RobotSpeaker
+from python.movement import RobotMovements
+from typing import Optional
 
 class HumanoidRobot:
     """Main class untuk robot humanoid dengan speech dan movement"""
-    
+     
     def __init__(self, ollama_model: str = "llama2"):
         print("=" * 50)
         print("🤖 HUMANOID ROBOT CONTROL SYSTEM")
@@ -167,7 +168,8 @@ class HumanoidRobot:
             print("\n📋 Available Poses:")
             for pose_name in poses:
                 pose_data = self.controller.config.get_pose(pose_name)
-                print(f"  - {pose_name}: {pose_data['description']}")
+                # print(f"  - {pose_name}: {pose_data['description']}")
+                print(f"  - {pose_name}")
             print()
             return True
         

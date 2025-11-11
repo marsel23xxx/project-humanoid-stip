@@ -20,6 +20,7 @@
       ]
     },
     "greeting": {
+      
       "name": "Greeting Pose",
       "description": "Mengangkat tangan kanan untuk menyapa",
       "servos": [

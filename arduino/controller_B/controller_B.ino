@@ -5,7 +5,7 @@
 // Protocol: ASCII, LF terminator ('\n'), 9600 baud
 // Wiring: TXD1→RX, RXD1←TX, GND↔GND, 5V↔5V (logic only)
 
-#define USB_BAUD   115200
+#define USB_BAUD   9600
 #define SERVO_BAUD 9600
 #define MARGIN_MS  300UL
 #define MAX_SERVOS 21

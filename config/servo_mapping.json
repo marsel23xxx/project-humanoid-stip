@@ -6,7 +6,7 @@
         "channel": 1,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "tilt": {
         "controller": "A",
@@ -29,14 +29,14 @@
         "channel": 4,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "elbow": {
         "controller": "A",
         "channel": 5,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "wrist_pitch": {
         "controller": "A",
@@ -73,14 +73,14 @@
         "channel": 10,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "elbow": {
         "controller": "A",
         "channel": 11,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "wrist_pitch": {
         "controller": "A",
@@ -140,42 +140,42 @@
         "channel": 19,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_20": {
         "controller": "A",
         "channel": 20,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_21": {
         "controller": "A",
         "channel": 21,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_22": {
         "controller": "A",
         "channel": 22,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_23": {
         "controller": "A",
         "channel": 23,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_24": {
         "controller": "A",
         "channel": 24,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       }
     },
     "right_leg": {
@@ -198,14 +198,14 @@
         "channel": 3,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "knee": {
         "controller": "B",
         "channel": 4,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "ankle_pitch": {
         "controller": "B",
@@ -242,14 +242,14 @@
         "channel": 9,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "knee": {
         "controller": "B",
         "channel": 10,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "ankle_pitch": {
         "controller": "B",
@@ -272,63 +272,63 @@
         "channel": 13,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_14": {
         "controller": "B",
         "channel": 14,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_15": {
         "controller": "B",
         "channel": 15,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_16": {
         "controller": "B",
         "channel": 16,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_17": {
         "controller": "B",
         "channel": 17,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_18": {
         "controller": "B",
         "channel": 18,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_19": {
         "controller": "B",
         "channel": 19,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_20": {
         "controller": "B",
         "channel": 20,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       },
       "servo_21": {
         "controller": "B",
         "channel": 21,
         "center": 1500,
         "min": 700,
-        "max": 2300
+        "max": 2200
       }
     }
   },

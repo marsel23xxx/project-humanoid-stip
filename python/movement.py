@@ -5,7 +5,7 @@ Library gerakan-gerakan kompleks untuk robot humanoid
 
 import time
 from typing import List, Dict, Optional
-from serial_controller import HumanoidController
+from python.serial_controller import HumanoidController
 
 class RobotMovements:
     """Collection of complex movements for humanoid robot"""

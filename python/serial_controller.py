@@ -6,7 +6,7 @@ Mengelola komunikasi serial dengan kedua Arduino ATX2
 import serial
 import time
 from typing import Dict, List, Optional, Tuple
-from servo_config import ServoConfig
+from python.servo_config import ServoConfig
 
 class SerialController:
     def __init__(self, config: ServoConfig):

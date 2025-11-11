@@ -7,7 +7,7 @@
     "description": "Upper body - Head, Arms, Torso"
   },
   "controller_B": {
-    "port": "COM4",
+    "port": "COM16",
     "baudrate": 115200,
     "timeout": 2,
     "max_servos": 21,
